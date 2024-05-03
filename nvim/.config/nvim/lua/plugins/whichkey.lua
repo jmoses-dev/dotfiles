@@ -13,7 +13,8 @@ return {
       window = {
         border = "shadow",
         margin = {2, 2, 2, 2}
-      }
+      },
+      hidden = { "silent" },
     })
 
     require("which-key").register({
