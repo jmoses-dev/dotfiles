@@ -7,7 +7,8 @@ echo "Set nerd-font to your terminal font"
 
 packages=(
   neovim,
-  stow
+  stow,
+  ripgrep
 )
 
 for package in "${packages[@]}"; do
